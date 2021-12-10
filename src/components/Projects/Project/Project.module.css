@@ -1,0 +1,26 @@
+.projectBlock {
+    width: 400px;
+    background-color: #f1efef;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: darkviolet;
+    height: 150px;
+}
+
+.titleContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title {
+
+}
+
+.description {
+    background-color: #a6c4c4;
+}

@@ -1,0 +1,28 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.mainContainer {
+    flex-wrap: wrap;
+}
+
+.text {
+    width: 500px;
+    background-color: #bbd1fd;
+}
+
+.text h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.highlight {
+    color: #e31b6d;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: #bbd1fd;
+}

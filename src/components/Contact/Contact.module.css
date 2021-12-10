@@ -1,0 +1,27 @@
+.contactBlock {
+    text-align: center;
+    background-color: #729ecb;
+    padding: 50px 0;
+}
+
+.contactContainer {
+    flex-direction: column;
+}
+
+.title {
+    margin: 0 0 20px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.textarea {
+    resize: none;
+}
