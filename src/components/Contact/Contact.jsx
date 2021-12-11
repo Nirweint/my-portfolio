@@ -7,7 +7,7 @@ export const Contact = () => {
 	return (
 		<div className={s.contactBlock}>
 			<div className={`${styleContainer.container} ${s.contactContainer}`}>
-				<h2 className={s.title}>Considering options for remote work</h2>
+				<h2 className={s.title}>Contact</h2>
 				<form action="" className={s.form}>
 					<input className={s.input}/>
 					<input  className={s.input}/>

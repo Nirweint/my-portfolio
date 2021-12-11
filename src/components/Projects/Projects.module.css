@@ -1,6 +1,7 @@
 .projectsBlock {
-    background-color: aliceblue;
     padding: 50px 0;
+    min-height: 40vh;
+    background-color: aliceblue;
 }
 
 .projectsContainer {

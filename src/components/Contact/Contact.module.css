@@ -2,6 +2,7 @@
     text-align: center;
     background-color: #729ecb;
     padding: 50px 0;
+    min-height: 40vh;
 }
 
 .contactContainer {
@@ -19,9 +20,12 @@
 }
 
 .input {
+    padding: 10px 0;
     margin-bottom: 10px;
+    min-width: 280px;
 }
 
 .textarea {
     resize: none;
+    height: 60px;
 }

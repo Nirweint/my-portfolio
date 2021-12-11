@@ -11,7 +11,6 @@ export const Main = () => {
 					<p>I'm a Frontend developer.</p>
 				</div>
 				<div className={s.photo}>
-
 				</div>
 			</div>
 		</div>
