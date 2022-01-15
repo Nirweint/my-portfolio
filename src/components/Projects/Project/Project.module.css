@@ -1,6 +1,6 @@
 .projectBlock {
     width: 400px;
-    background-color: #f1efef;
+    background-color: #161616;
 }
 
 .image {
@@ -18,9 +18,17 @@
 }
 
 .title {
-
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: .1px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+    color: #fff
 }
 
 .description {
-    background-color: #a6c4c4;
+    color: #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.95;
 }

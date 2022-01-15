@@ -1,17 +1,11 @@
 .projectsBlock {
     padding: 50px 0;
     min-height: 40vh;
-    background-color: aliceblue;
 }
 
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.title {
-    background-color: #d1e5e5;
-    margin: 0 0 20px 0;
 }
 
 .projects {
@@ -21,4 +15,10 @@
 
     border: 1px solid;
     width: 100%;
+}
+
+@media screen and (max-width: 1005px) {
+    .projects {
+        justify-content: center;
+    }
 }
