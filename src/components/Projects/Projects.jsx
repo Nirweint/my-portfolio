@@ -1,17 +1,44 @@
 import React from 'react';
-import s from './Projects.module.css';
+import s from './Projects.module.scss';
 import styleContainer from '../../common/styles/Container.module.css';
 import {Project} from "./Project/Project";
 import {Title} from "../../common/components/Title/Title";
+import socialNetworkImage from '../../assets/images/social-network-app.png'
+import todolistImage from '../../assets/images/todolist.png'
+import muiResponsiveImage from '../../assets/images/mui-responsive.png'
 
 export const Projects = () => {
+	const social = {
+		backgroundImage: `url(${socialNetworkImage})`
+	}
+	const todolist = {
+		backgroundImage: `url(${todolistImage})`
+	}
+	const muiPage = {
+		backgroundImage: `url(${muiResponsiveImage})`
+	}
+
+
 	return (
 		<div className={s.projectsBlock}>
 			<div className={`${styleContainer.container} ${s.projectsContainer}`}>
 				<Title text={'My Projects'}/>
 				<div className={s.projects}>
-					<Project title={"Todo App"} description={"Amazing app to see in real life"}/>
-					<Project title={"Social Network App"} description={"Amazing app to see in real life. But not so good to see."}/>
+					<Project
+						style={todolist}
+						title={"Todo App"}
+						description={"React, Redux, TypeScript, Thunk, Material UI, Storybook, Formik, Rest API"}
+					/>
+					<Project
+						style={social}
+						title={"Social Network App"}
+						description={"React, Redux, TypeScript, Thunk, Module CSS, Formik, React-router-dom, Rest API"}
+					/>
+					<Project
+						style={muiPage}
+						title={"Responsive MUI App"}
+						description={"React, TypeScript, Material UI"}
+					/>
 				</div>
 			</div>
 		</div>

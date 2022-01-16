@@ -1,0 +1,27 @@
+@import '../../common/styles/sass/variables';
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+    a {
+        letter-spacing: .1px;
+        color: $textColor;
+        font-size: 15px;
+        padding: 0;
+        text-decoration: none;
+        background-color: transparent;
+        font-weight: 400;
+        line-height: 1.95;
+        transition: .3s;
+
+        border-bottom: 4px solid $mainBackgroundColor;
+
+        &:hover {
+            border-bottom: 4px solid $secondColor;
+            color: $secondColor;
+        }
+    }
+}

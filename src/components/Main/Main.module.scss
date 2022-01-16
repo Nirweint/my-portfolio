@@ -1,0 +1,54 @@
+@import '../../common/styles/sass/variables';
+
+.mainBlock {
+    height: 100vh;
+    background-color:$mainBackgroundColor;
+
+    .mainContainer {
+        flex-wrap: wrap;
+
+        @media screen and (max-width: 1000px) {
+            justify-content: center;
+            align-items: flex-start;
+            height: 80%;
+        }
+
+        .text {
+            width: 500px;
+
+            h2 {
+                font-weight: 700;
+                letter-spacing: -0.25px;
+                line-height: 100%;
+                font-size: 46px;
+                color: #f0f0f0;
+            }
+
+            .highlight {
+                color: $secondColor;
+            }
+
+            .secondTitle {
+                font-size: 24px;
+                font-weight: 600;
+                letter-spacing: 0.1px;
+                line-height: 1.5;
+                color: #f0f0f0;
+            }
+
+
+        }
+
+        .photo {
+            width: 300px;
+            height: 400px;
+            background-image: url('../../assets/images/photo-portfolio-me.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+
+}
+

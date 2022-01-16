@@ -1,0 +1,27 @@
+@import '../../styles/sass/variables';
+
+.title {
+    margin: 0 0 83px 0;
+
+    &:after {
+        content: "";
+        display: block;
+        height: 4px;
+        left: 0;
+        margin: 37px auto 0 auto;
+        right: 0;
+        width: 75px;
+        position: absolute;
+        background-color: $secondColor;
+    }
+
+    h2 {
+        margin: 0;
+        font-weight: 700;
+        letter-spacing: -.25px;
+        line-height: 100%;
+        font-size: 46px;
+        color: $textColor;
+        position: relative;
+    }
+}

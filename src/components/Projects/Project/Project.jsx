@@ -1,12 +1,14 @@
 import React from 'react';
-import s from './Project.module.css';
+import s from './Project.module.scss';
 import {Button} from "../../UI/Button";
 
-export const Project = ({title, description}) => {
+export const Project = ({title, description, style}) => {
 	return (
 		<div className={s.projectBlock}>
-			<div className={s.image}>
-				<Button>Learn More</Button>
+			<div className={s.image} style={style}>
+				<Button className={s.btn}>
+					<a href="#">Learn More</a>
+				</Button>
 			</div>
 
 			<div className={s.titleContainer}>
