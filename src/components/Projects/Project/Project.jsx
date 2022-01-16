@@ -7,7 +7,7 @@ export const Project = ({title, description, style}) => {
 		<div className={s.projectBlock}>
 			<div className={s.image} style={style}>
 				<Button className={s.btn}>
-					<a href="#">Learn More</a>
+					<a href="#">More Info</a>
 				</Button>
 			</div>
 
