@@ -1,0 +1,11 @@
+@import '../../common/styles/sass/variables';
+
+.remoteBlock {
+    text-align: center;
+    background-color: $secondBackgroundColor;
+    padding: 50px 0;
+
+    .remoteContainer {
+        flex-direction: column;
+    }
+}

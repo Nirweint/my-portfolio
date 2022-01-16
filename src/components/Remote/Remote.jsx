@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from "../UI/Button";
-import s from './Remote.module.css'
+import s from './Remote.module.scss'
 import styleContainer from '../../common/styles/Container.module.css'
 import {Title} from "../../common/components/Title/Title";
 
