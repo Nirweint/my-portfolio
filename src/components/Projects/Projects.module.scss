@@ -1,8 +1,10 @@
+@import '../../common/styles/sass/mixins';
 .projectsBlock {
     padding: 50px 0;
     min-height: 40vh;
 
     .projectsContainer {
+        @include container();
         flex-direction: column;
         justify-content: flex-start;
 

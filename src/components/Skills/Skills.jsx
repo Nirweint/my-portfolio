@@ -1,11 +1,10 @@
 import React from 'react';
-import s from './Skills.module.scss'
-import styleContainer from '../../common/styles/Container.module.css'
 import {Skill} from "./Skill/Skill";
 import {Title} from "../../common/components/Title/Title";
 import {faJs} from '@fortawesome/free-brands-svg-icons';
 import {faReact} from '@fortawesome/free-brands-svg-icons';
 import {faUikit} from '@fortawesome/free-brands-svg-icons';
+import s from './Skills.module.scss'
 
 
 export const Skills = () => {
@@ -13,7 +12,7 @@ export const Skills = () => {
 
 	return (
 		<div className={s.skillsBlock}>
-			<div className={`${styleContainer.container} ${s.skillsContainer}`}>
+			<div className={s.skillsContainer}>
 				<Title text={'My skills'}/>
 				<div className={s.skills}>
 					<Skill

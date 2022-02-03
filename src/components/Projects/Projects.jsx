@@ -1,11 +1,10 @@
 import React from 'react';
-import s from './Projects.module.scss';
-import styleContainer from '../../common/styles/Container.module.css';
 import {Project} from "./Project/Project";
 import {Title} from "../../common/components/Title/Title";
 import socialNetworkImage from '../../assets/images/social-network-app.png'
 import todolistImage from '../../assets/images/todolist.png'
 import muiResponsiveImage from '../../assets/images/mui-responsive.png'
+import s from './Projects.module.scss';
 
 export const Projects = () => {
 	const social = {
@@ -21,7 +20,7 @@ export const Projects = () => {
 
 	return (
 		<div className={s.projectsBlock}>
-			<div className={`${styleContainer.container} ${s.projectsContainer}`}>
+			<div className={s.projectsContainer}>
 				<Title text={'My Projects'}/>
 				<div className={s.projects}>
 					<Project

@@ -1,13 +1,12 @@
 import React from 'react';
-import s from './Contact.module.scss';
-import styleContainer from '../../common/styles/Container.module.css';
-import {Button} from "../UI/Button";
+import {Button} from "../../common/components/Button/Button";
 import {Title} from "../../common/components/Title/Title";
+import s from './Contact.module.scss';
 
 export const Contact = () => {
 	return (
 		<div className={s.contactBlock}>
-			<div className={`${styleContainer.container} ${s.contactContainer}`}>
+			<div className={s.contactContainer}>
 				<Title text={'Contact'}/>
 				<form action="" className={s.form}>
 					<input className={s.input} placeholder={'Name'}/>

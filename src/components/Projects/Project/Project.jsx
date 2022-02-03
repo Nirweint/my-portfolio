@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Project.module.scss';
-import {Button} from "../../UI/Button";
+import {Button} from "../../../common/components/Button/Button";
 
 export const Project = ({title, description, style}) => {
 	return (
