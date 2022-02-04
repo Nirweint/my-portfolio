@@ -1,5 +1,5 @@
 import React from 'react';
-import {Skill} from "./Skill/Skill";
+import {Skill} from "./skill/Skill";
 import {Title} from "../../common/components/Title/Title";
 import {faJs} from '@fortawesome/free-brands-svg-icons';
 import {faReact} from '@fortawesome/free-brands-svg-icons';
@@ -12,7 +12,7 @@ import s from './Skills.module.scss';
 export const Skills = () => {
 
 	return (
-		<div className={s.skillsBlock}>
+		<div className={s.skillsBlock} id='skills'>
 			<div className={s.skillsContainer}>
 				<Fade top>
 					<Title text={'My skills'}/>

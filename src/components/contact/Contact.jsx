@@ -6,7 +6,7 @@ import s from './Contact.module.scss';
 
 export const Contact = () => {
 	return (
-		<div className={s.contactBlock}>
+		<div className={s.contactBlock} id='contact'>
 			<div className={s.contactContainer}>
 				<Title text={'Contact'}/>
 				<Fade left>

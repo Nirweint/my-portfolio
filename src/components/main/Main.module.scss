@@ -57,6 +57,11 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
+
+            @media screen and (max-width: 400px ) {
+                width: 200px;
+                height: 300px;
+            }
         }
     }
 
