@@ -13,7 +13,6 @@
         .form {
             display: flex;
             flex-direction: column;
-            margin-bottom: 20px;
 
             .input {
                 font-family: $mainFontFamily;
@@ -22,11 +21,11 @@
                 min-width: 500px;
                 background-color: $secondBackgroundColor;
                 color: $textColor;
-                border: 1px solid $secondBackgroundColor;
+                border: 2px solid $secondBackgroundColor;
                 outline: none;
 
                 &:focus {
-                    border: 1px solid $descriptionTextColor;
+                    border-bottom: 2px solid $secondColor;
                 }
 
                 @media screen and (max-width: 658px) {
@@ -38,19 +37,25 @@
                 font-family: $mainFontFamily;
                 resize: none;
                 padding: 5px 5px;
+                margin-bottom: 20px;
                 height: 200px;
                 background-color: $secondBackgroundColor;
                 color: $textColor;
                 outline: none;
-                border: 1px solid $secondBackgroundColor;
+                border: 2px solid $secondBackgroundColor;
 
                 &:focus {
-                    border: 1px solid $descriptionTextColor;
+                    border-bottom: 2px solid $secondColor;
                 }
 
                 @media screen and (max-width: 658px) {
                     height: 120px;
                 }
+            }
+
+            .btn {
+                align-self: center;
+                width: fit-content;
             }
         }
     }
