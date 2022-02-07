@@ -3,6 +3,7 @@ import {Button} from "../../common/components/Button/Button";
 import {Title} from "../../common/components/Title/Title";
 import Slide from 'react-reveal/Slide';
 import s from './Remote.module.scss'
+import {Link} from "react-scroll";
 
 export const Remote = () => {
 	return (
@@ -10,7 +11,9 @@ export const Remote = () => {
 			<Slide left>
 				<div className={s.remoteContainer}>
 					<Title text={'Considering options for remote work'}/>
-					<Button>Contact me</Button>
+					<Button>
+						<Link to={'contact'} spy smooth offset={-70} duration={500}>Contact me</Link>
+					</Button>
 				</div>
 			</Slide>
 		</div>

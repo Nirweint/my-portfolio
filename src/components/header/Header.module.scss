@@ -12,8 +12,13 @@
     justify-content: flex-end;
     height: 80px;
     background-color: $mainBackgroundColor;
+
     border-bottom: 2px solid $secondColor;
 
+    @media screen and (max-width: 400px) {
+        background-color: rgba(34, 38, 42, .5);
+        border-bottom: none;
+    }
     .headerContainer {
         @include container();
         justify-content: flex-end;
