@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Title} from "../../common/components/Title/Title";
+import {Title} from "../../common/components/title/Title";
 import Fade from 'react-reveal/Fade';
 import emailjs from '@emailjs/browser';
 import s from './Contact.module.scss';

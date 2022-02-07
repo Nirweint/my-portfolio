@@ -1,6 +1,6 @@
 import React from 'react';
 import {Skill} from "./skill/Skill";
-import {Title} from "../../common/components/Title/Title";
+import {Title} from "../../common/components/title/Title";
 import {faJs} from '@fortawesome/free-brands-svg-icons';
 import {faReact} from '@fortawesome/free-brands-svg-icons';
 import {faUikit} from '@fortawesome/free-brands-svg-icons';

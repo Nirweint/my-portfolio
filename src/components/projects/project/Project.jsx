@@ -1,16 +1,14 @@
 import React from 'react';
-import {Button} from "../../../common/components/Button/Button";
 import Fade from 'react-reveal/Fade';
 import s from './Project.module.scss';
+import {Link} from "../../../common/components/link/Link";
 
 export const Project = ({title, description, style, to}) => {
 	return (
 		<div className={s.projectBlock}>
 			<Fade bottom>
 				<div className={s.image} style={style}>
-					<Button className={s.btn}>
-						<a href={to} rel={'noreferrer'} target={'_blank'}>More Info</a>
-					</Button>
+					<Link to={to} name={'More Info'}/>
 				</div>
 
 				<div className={s.titleContainer}>

@@ -1,9 +1,9 @@
 import React from 'react';
-import {Button} from "../../common/components/Button/Button";
-import {Title} from "../../common/components/Title/Title";
+import {Title} from "../../common/components/title/Title";
 import Slide from 'react-reveal/Slide';
 import s from './Remote.module.scss'
 import {Link} from "react-scroll";
+import {Link as LinkButton} from '../../common/components/link/Link'
 
 export const Remote = () => {
 	return (
@@ -11,9 +11,9 @@ export const Remote = () => {
 			<Slide left>
 				<div className={s.remoteContainer}>
 					<Title text={'Considering options for remote work'}/>
-					<Button>
-						<Link to={'contact'} spy smooth offset={-70} duration={500}>Contact me</Link>
-					</Button>
+					<Link to={'contact'} spy smooth offset={-70} duration={500}>
+						<LinkButton name={'Contact me'}/>
+					</Link>
 				</div>
 			</Slide>
 		</div>

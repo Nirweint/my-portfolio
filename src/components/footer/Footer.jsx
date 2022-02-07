@@ -1,5 +1,5 @@
 import React from 'react';
-import {Title} from "../../common/components/Title/Title";
+import {Title} from "../../common/components/title/Title";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faTelegram} from '@fortawesome/free-brands-svg-icons';

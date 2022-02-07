@@ -1,6 +1,6 @@
 import React from 'react';
 import {Project} from "./project/Project";
-import {Title} from "../../common/components/Title/Title";
+import {Title} from "../../common/components/title/Title";
 import socialNetworkImage from '../../assets/images/social-network-app.png';
 import todolistImage from '../../assets/images/todolist.png';
 import muiResponsiveImage from '../../assets/images/mui-responsive.png';
