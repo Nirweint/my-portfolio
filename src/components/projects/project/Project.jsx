@@ -1,7 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import s from './Project.module.scss';
 import {Link} from "../../../common/components/link/Link";
+import s from './Project.module.scss';
 
 export const Project = ({title, description, style, to}) => {
 	return (

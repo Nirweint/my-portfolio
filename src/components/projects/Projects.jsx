@@ -5,6 +5,7 @@ import socialNetworkImage from '../../assets/images/social-network-app.png';
 import todolistImage from '../../assets/images/todolist.png';
 import muiResponsiveImage from '../../assets/images/mui-responsive.png';
 import githubUsersImage from '../../assets/images/github-users-project-image.png';
+import  cardsImage from '../../assets/images/cards.png';
 import Fade from 'react-reveal/Fade';
 import s from './Projects.module.scss';
 
@@ -21,6 +22,10 @@ export const Projects = () => {
 	const githubUsersPage = {
 		backgroundImage: `url(${githubUsersImage})`
 	}
+	const cards = {
+		backgroundImage: `url(${cardsImage})`
+	}
+
 
 	return (
 		<div className={s.projectsBlock} id='projects'>
@@ -29,6 +34,12 @@ export const Projects = () => {
 					<Title text={'My projects'}/>
 				</Fade>
 				<div className={s.projects}>
+						<Project
+							style={cards}
+							title={"Cards App"}
+							description={"React, Redux, TypeScript, Thunk, React-router-dom, Rest API"}
+							to={'https://github.com/Nirweint/cards-project'}
+						/>
 						<Project
 							style={todolist}
 							title={"Todo App"}
