@@ -3,9 +3,8 @@ import {Project} from "./project/Project";
 import {Title} from "../../common/components/title/Title";
 import socialNetworkImage from '../../assets/images/social-network-app.png';
 import todolistImage from '../../assets/images/todolist.png';
-import muiResponsiveImage from '../../assets/images/mui-responsive.png';
 import githubUsersImage from '../../assets/images/github-users-project-image.png';
-import  cardsImage from '../../assets/images/cards.png';
+import cardsImage from '../../assets/images/cards.png';
 import Fade from 'react-reveal/Fade';
 import s from './Projects.module.scss';
 
@@ -15,9 +14,6 @@ export const Projects = () => {
 	}
 	const todolist = {
 		backgroundImage: `url(${todolistImage})`
-	}
-	const muiPage = {
-		backgroundImage: `url(${muiResponsiveImage})`
 	}
 	const githubUsersPage = {
 		backgroundImage: `url(${githubUsersImage})`
@@ -44,25 +40,19 @@ export const Projects = () => {
 							style={todolist}
 							title={"Todo App"}
 							description={"React, Redux, TypeScript, Thunk, Material UI, Storybook, Formik, Rest API"}
-							to={'https://github.com/Nirweint/todo16v2'}
+							to={'https://nirweint.github.io/todo16v2/'}
 						/>
 						<Project
 							style={social}
 							title={"Social Network App"}
 							description={"React, Redux, TypeScript, Thunk, Module CSS, Formik, React-router-dom, Rest API"}
-							to={'https://github.com/Nirweint/social-network-typescript'}
-						/>
-						<Project
-							style={muiPage}
-							title={"Responsive MUI App"}
-							description={"React, TypeScript, Material UI"}
-							to={'https://github.com/Nirweint/mui-responsive-app'}
+							to={'https://nirweint.github.io/social-network-typescript/'}
 						/>
 						<Project
 							style={githubUsersPage}
 							title={"GitHub users App"}
 							description={"React, Redux, TypeScript, Material UI, Thunk, React-router-dom, Rest API"}
-							to={'https://github.com/Nirweint/github-users-project'}
+							to={'https://nirweint.github.io/github-users-project/'}
 						/>
 				</div>
 			</div>
