@@ -38,7 +38,7 @@ export const Projects = () => {
 							style={cards}
 							title={"Cards App"}
 							description={"React, Redux, TypeScript, Thunk, React-router-dom, Rest API"}
-							to={'https://github.com/Nirweint/cards-project'}
+							to={'https://cards-learn-app.herokuapp.com/'}
 						/>
 						<Project
 							style={todolist}
